@@ -1,0 +1,1378 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* glbal */
+#bar-icon{
+    font-size: 30px;
+    display: none;
+    float: right;
+   
+}
+.container{
+    width: 100%;
+    margin: auto;
+    padding-bottom: 20px;
+   
+}
+
+
+h3{
+    color: rgb(0, 123, 255);
+}
+h2{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: blueviolet;
+}
+h5{
+    font-size: 20px;
+    color: blueviolet;
+
+}
+h4{
+    color: blueviolet;
+}
+
+
+
+
+/* _____________________ header ______________ */
+
+
+header nav .logo{
+     padding-top: 20px;
+     padding-left: 140px;
+     font-size: 30px;
+     font-weight: bold;
+     font-family: "Protest Guerrilla", sans-serif;
+     
+
+   
+
+}
+
+header .container{
+    width: 90%;
+}
+
+header nav .logo a {
+    text-decoration: none;
+    color: black;
+}
+header nav .logo a span i{
+    font-size: 35px;
+}
+header nav .logo a var{
+    font-size: 35px;
+    color: rebeccapurple;
+}
+header{
+    background-color: rgb(247, 249, 254);
+    padding-bottom: 30px;
+}
+header nav {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    
+    margin: auto;
+    padding-top: 30px;
+}
+header nav .navs ul{
+    display: flex;
+    padding-top: 20px;
+   
+}
+header nav .navs ul li{
+    list-style: none;
+}
+header nav .navs ul li a{
+    padding: 10px;
+    text-decoration: none;
+}
+header nav .navs ul li button{
+    color: rgb(235, 240, 235);
+    background-color: blue;
+    width: 110px;
+    height: 45px;
+    border-radius: 30px;
+   
+}
+
+
+/*------------------------- section 1 ------------ */
+#section1{
+    background-color:  rgb(247, 249, 254);
+
+}
+#section1 .container{
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#section1 .container .about-btn a{
+    background-size: auto;
+   
+
+
+}
+#section1 .container .row p{
+    padding-top: 60px;
+    
+}
+
+#section1 .container .row p a{
+    text-decoration: none;
+}
+#section1 .container .row{
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+}
+
+#section1 .container .row2{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#section1 .container .row2 p{
+    font-size: 20px;
+}
+#section1 .container .row2 h4{
+    color: rgb(129, 128, 128);
+}
+
+#section1 .container .main-img img{
+    width: 600px;
+    height: 550px;
+}
+#section1 .container .main-text h1{
+
+    /* font-family: Oswald, sans-serif; */
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    font-size: 5em;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style:normal;
+    font-size: 80px;
+    font-weight: bold;
+    color: #3a4a79; /* الأزرق الداكن */
+    display: inline-block;
+}
+
+#section1 .container p{
+   
+    padding-bottom: 30px;
+}
+    
+
+#section1 .container .main-text {
+    width: 100%;
+    color: rgb(80, 101, 142);
+    font-weight: bold;
+   
+
+}
+
+#section1 .container .main-text .text-row{
+    display: flex;
+ 
+    
+   
+}
+#section1 .container .main-text .text-row .header-text {
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 30px;
+    padding-top: 75px;
+    padding-left: 2px;
+}
+
+
+#section1 .container .main-text .text-row .header-text h4{
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+}
+#section1 .container .main-text .text-row .header-text h3{
+    padding-top: 10px;
+  
+}
+
+
+/*----------------------- section 2 --------------- */
+#section2{
+    height: 70vh;
+    padding-top: 30px;
+}
+#section2 .container{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#section2 .container .card2-img .card-content .card-text{
+   
+  
+    box-shadow:0 25px 25px 20px rgba(123, 122, 122, 0.15);
+    width: 400px;
+    height: 400px;
+    padding-top: 20px;
+    padding-left: 20px;
+    
+
+}
+#section2 .container .card2-img .card-content .card-text a{
+    padding: 10px;
+  
+    
+    
+   
+    
+}
+
+
+/*_____________________ section 3 _____________ */
+
+
+
+#section3 {
+    width: 100%;
+    height: 75vh;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background-color: rgb(247, 249, 254);
+
+}
+#section3 .container .card3-img .cards{
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    width: 80%;
+    padding-top: 20px;
+    
+}
+#section3 .container .card3-img .cards .card-content{
+    border: 1px solid rgb(193, 191, 191);
+    width: 370px;
+    height: 350px;
+    justify-content: center;
+    text-align: center;
+    
+   
+    
+
+
+   
+}
+
+#section3 .container .card-img{
+    border-bottom: 3px solid red;
+    
+    
+}
+#section3 .container .card-text{
+    padding-top: 20px;
+}
+
+
+#section3 .container .card3-img .cards .card-content img{
+    width: 200px;
+    height: 200px;
+   
+    
+  
+}
+#section3 .container .card3-tex{
+    text-align: center;
+}
+
+
+
+
+
+.about-btn{
+    text-align: center;
+    padding-top: 60px;
+    
+}
+
+
+.about-btn a{
+    background-color: rgb(0, 123, 255);
+    color: white;
+    padding: 20px 15px;
+    border: 0;
+    border-radius: 100px;
+    font-size: 16px;
+    text-decoration: none;
+  
+    
+}
+
+
+.about-btn a:hover{
+
+    background-color: rgb(7, 54, 103);
+}
+
+
+
+
+
+/*__________ section 4 __________ */
+#section4{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 80vh;
+}
+#section4 .container{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    padding-top: 40px;
+   
+
+}
+
+#section4 .container .txt{
+    padding-bottom: 40px;
+}
+
+
+#section4 .container .row .cards{
+    display: flex;
+    justify-content: space-around;
+   
+}
+#section4 .container .row .cards .card-content .card-img img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+   
+   
+  
+
+    
+}
+#section4 .container .row .cards .card-content .card-img {
+    padding-top: 20px;
+    padding-right: 30px;
+    float: right;
+}
+
+#section4 .container .row .cards .card-content{
+    width: 500px;
+    height: 300px;
+    border: 1px solid rgb(224, 216, 216) ;
+    border-top: none;
+  
+
+   
+    
+}
+#section4 .container .row .cards .card-content .card-text{
+    padding-left: 40px;
+    padding-top: 100px;
+    
+ 
+}
+
+#section4 .end .row2 {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+
+  
+
+}
+#section4 .end .row2 .text{
+    display: flex;
+}
+#section4 .end .row2 .text i{
+    color: rgb(80, 101, 142);
+    font-size: 60px;
+    padding-right: 10px;
+}
+#section4 .end .row2 .text{
+    padding-top: 30px;
+
+
+}
+#section4 .end .row2 .text span{
+    color: rgb(58, 27, 230);
+}
+
+
+/*--------------- section 5 _-------------------- */
+#section5{
+    height: 80vh;
+
+}
+#section5 .container .cards{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+   
+
+ 
+}
+#section5 .container .text{
+    text-align: center;
+    padding-top: 50px;
+}
+
+#section5 .container .cards .card-content{
+    width: 230px;
+    height: 270px;
+    margin: auto;
+    justify-content: space-around;
+    
+   
+ 
+  
+}
+#section5 .container .cards  .card-content .card-img img{
+    width: 120px;
+    height: 120px;
+  
+    background-color: red;border-radius: 50px;
+    
+   
+}
+
+
+
+/* _________________________ secion 6 ______________ */
+#section6{
+    height: 120vh;
+    background-color: rgb(247, 249, 254);
+    padding-top: 40px;
+}
+#section6 .container .row{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 80%;
+    height: 650px;
+}
+
+#section6 .container .row .cont-imge img{
+    width: 400px;
+    height: 600px;
+ 
+}
+
+#section6 .container .row{
+    box-shadow:0 25px 25px 20px rgba(123, 122, 122, 0.15);
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+#section6 .container .row .cont-text p i{
+    color: green;
+}
+
+#section6 .container .row .cont-text h2{
+    text-align: left;
+}
+#section6 .container {
+    height: 100vh;
+}
+
+#section6 .container .cards{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    
+    margin: auto;
+    
+    
+
+}
+#section6 .container .end h2{
+    padding-top: 50px;
+
+}
+#section6 .container .end h3{
+    color: red;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+#link{
+    text-align: center;
+    
+}
+#link a{
+    color: rgb(0, 123, 255);
+    font-weight: bold;
+}
+
+#section6 .container .cards img{
+    width: 150px;
+    height: 150px;
+    border-radius: 70px;
+    
+    
+    
+}
+
+#section6 .container .cards p{
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+/*___________________ secton 7 ______________ */
+
+#section7 .container{
+    width: 100%;
+   
+ 
+}
+#section7 .container .row{
+    display: flex;
+    background-color: rgb(185, 184, 203);
+    padding: 30px;
+    height: 450px;
+    justify-content: space-around;
+    
+ 
+}
+#section7 .container .row .cont1 h2{
+    text-align: left;
+}
+
+
+
+#section7 .container .row .cont2{
+    background-color: rgb(27, 71, 161);
+
+    padding: 20px;
+    color: aliceblue;
+    border-radius: 20px;
+    height: 400px;
+    width: 650px;
+}
+
+
+#section7 .container .row .cont2 h2{
+    color: rgb(241, 210, 210);
+    font-size: 25px;
+    text-align: left;
+
+}
+#section7 .container .row .cont2 p{
+    font-size: 15px;
+}
+
+#section7 .container .row .cont2 p i{
+    color: rgb(239, 244, 239);
+    padding: 3px;
+}
+
+/*--------------------- section 8 ------------------- */
+
+#section8 {
+    background-color:  rgb(247, 249, 254);
+    margin: auto;
+}
+
+
+#section8 .container .text {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#section8 .container .imgs{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+   
+}
+#section8 .container .imgs .img-2 img{
+    width: 400px;
+    height: 450px;
+
+}
+
+
+/*___________ section 9 ___________ */
+#section9{
+    height: 80vh;
+    padding-top: 50px;
+}
+
+#section9 .text{
+    text-align: center;
+}
+#section9 .container {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 57%;
+
+    
+   
+    
+}
+#section9 .text h2{
+    padding-bottom: 30px;
+}
+#section9 .container .cont1{
+    
+
+    width: 350px;
+    height: 400px;
+  
+}
+#section9 .container .cont2 p:hover{
+    color:   rgb(0, 123, 255);
+}
+#section9 .container .cont2{
+    width: 700px;
+    height: 400px;
+    border: 1px solid rgb(245, 232, 232);
+    
+}
+
+
+.card-8 .faq .faq-lists .faq-l1 ul a li:hover {
+    color: rgb(0, 123, 255);
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(0, 123, 255);
+    border-image: initial;
+}
+
+#section9 .container .cont1 ul{
+    list-style: none;
+}
+#section9 .container .cont1 ul a{
+    text-decoration: none;
+}
+#section9 .container .cont1 ul a li {
+    padding: 20px 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(231, 232, 255);
+    border-image: initial;
+    border-radius: 8px;
+    margin: 10px 0px;
+    transition: 0.5s;
+    display: flex;
+    justify-content: space-between;
+   
+}
+#section9 .container .cont2 ul a li {
+    padding: 20px 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(231, 232, 255);
+    border-image: initial;
+    border-radius: 8px;
+    margin: 10px 0px;
+    transition: 0.5s;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+#section9 .container .cont2 ul{
+    list-style: none;
+}
+#section9 .container .cont2 ul a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+/*--------------- section 10 ---------------- */
+#section10{
+    background-color: rgb(247, 249, 254);
+    padding-top: 30px;
+    height: 90vh;
+}
+#section10 .text{
+    text-align: center;
+    padding-bottom: 50px;
+}
+#section10 .container {
+    justify-content: space-evenly;
+    margin: auto;
+    width: 80%;
+}
+#section10 .container .cards .card-content .card-img img{
+    width: 400px;
+    height: 240px;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+
+}
+
+#section10 .container .cards{
+    display: flex;
+ 
+}
+#section10 .container .cards .card-content{
+    background-color:white;
+    margin: auto;
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+ 
+#section10 .container .cards .card-content .card-text{
+    padding: 5px;
+  
+}
+#section10 .container .cards .card-content h5{
+    color: rgb(25, 24, 24);
+}
+
+
+/*----------------- footer ------------ */
+footer {
+    background-color: rgb(21, 28, 46);
+    height: 50vh;
+ 
+    color: aliceblue;
+}
+footer .container{
+    width: 80%;
+    margin: auto;
+
+}
+footer .container .row{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+    padding: 40px;
+}
+footer .end{
+    padding-top: 40px;
+    font-size: 12px;
+}
+
+footer .container .logo{
+    color: rgb(240, 229, 229);
+    font-size: 30px;
+}
+footer .container .cont-1 h4{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+footer .container .cont-1 h4 i{
+    color: red;
+    padding: 4px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+@media (max-width: 1800px){
+    header{
+        height: 90vh;
+    }
+    #section3{
+        height: 90vh;
+    }
+    #section6{
+        height: 150vh;
+        padding: 60px;
+    }
+    #link {
+        padding-top: 20px;
+    }
+    #section9 .text{
+        width: 100%;
+        margin: auto;
+    }
+
+
+
+@media (max-width: 1600px){
+    
+    #section9{
+        height: 90vh;
+    
+    }
+    footer{
+        width: 100%;
+        height: 55vh;
+     
+    }
+    footer .container{
+        height: 50vh;
+    }
+}
+
+
+#section9 .container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+   } 
+
+ 
+@media (max-width: 1480px){
+    header{
+        height: 100vh;
+    }
+    #section2{
+        height: 70vh;
+        padding-top: 80px;
+        
+    }
+    #section6 {
+        height: 140vh;
+    }
+    #section6 .container{
+     
+        height: 120vh;
+      
+    }
+    #section7 .container .row{
+
+        height: 70vh;
+    }
+  
+   #section10 .container .cards .card-content .card-img img{
+    width: 310px;
+    height: 300px;
+   } 
+   #section9 .text{
+    height: 76vh;
+    margin: auto;
+  
+   }
+   #section9 .container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+   }
+   #section9 .container .cont2 {
+    width: 600px;
+  
+   }
+ 
+    
+
+}
+
+   @media (max-width: 1280px){
+    #section1 .container .main-img img {
+        width: 500px;
+        height: 400px;
+    }
+    #section1 .container .main-text h1{
+        font-size: 3em;
+    }
+    #section1 .container .main-text .text-row .header-text h3{
+        font-size: 30px;
+       
+          
+        
+    }
+    #section1 .container .main-text .text-row .header-text h4{
+        font-size: 25px;
+     
+    }
+    header nav .logo{
+        font-size: 20px;
+        padding-left: 5px;
+    }
+    header nav .logo a span i{
+        font-size: 20px;
+    }
+    #section1 .container .main-text .text-row .header-text{
+        padding-left: 20px;
+        
+    }
+    #section1 .container .main-text .text-row .header-text{
+        padding-top: 30px;
+    }
+    header nav .logo a var{
+        font-size: 20px;
+    }
+    #section2 .container .card2-img .card-content .card-text{
+        word-wrap: 350px;
+        height: 350px;
+        padding-top: 1px;
+       
+    }
+    #section2 .container p{
+        padding-bottom: 30px;
+        text-align: center;
+        
+    }
+    #section2 .container .card2-text h3{
+        text-align: center;
+    }
+    #section2 .container .card2-text h2{
+        text-align: center;
+    }
+    #section2 .container h2{
+        font-size: 30px;
+        text-align: left;
+    }
+    #section6{
+        height: 165vh;
+    }
+    #section6 .container .cards{
+        flex-wrap: wrap;
+        width: calc(70% / 1);
+        justify-content: space-evenly;
+    }
+  
+    #section6 .container .row{
+        width: 90%;
+    }
+    #section7 .container .row .cont1 h2{
+        font-size: 30px;
+    }
+    #section7 .container .row .cont2 h2{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    #section9 .container .cont2{
+        width: 450px;
+        height: 430px;
+       
+    }
+    #section9 .container .cont1{
+        color: red;
+        width: 350px;
+       
+    }
+    #section10 .container{
+        width: 90%;
+    }
+  
+    #section10 .container .cards .card-content .card-img img{
+        width: 300px;
+        height: 250px;
+    }
+
+
+   }
+
+
+
+
+
+
+
+   /*-------------------------------- مكان المشكلة ---------------------------*/
+   @media (max-width: 1080px){
+    header{
+        height: 140vh;
+    }
+  
+    header .navs{
+        display: none;
+        
+    }
+    #bar-icon{
+        display: block;
+    }
+    header .container .logo{
+        display: none;
+    }
+
+
+    header .navs ul i{
+        display: block;
+    }
+    #section1{
+        height: 120vh;
+    }
+    #section1 .container {
+      width: calc(100% / 1);
+      flex-wrap: wrap;
+      justify-content: center;
+    
+    }
+    #section2{
+        height: 120vh;
+        
+    
+    }
+    #section1 .container .main-text{
+        margin: auto;
+        text-align:center;
+        justify-content: space-between;
+        
+    }
+   
+    #section2{
+        height: 120vh;
+    }
+    #section2 .container{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+
+    #section3 .container .card3-img .cards{
+        flex-wrap: wrap;
+        display: flex;
+      
+    }
+    #section3{
+        height: 175vh;
+    }
+    #section4{
+        height: 120vh;
+    }
+    #section4 .container{
+        width: 80%;
+        height: 100vh;
+       
+   
+  
+    }
+    #section4{
+        height: 180vh;
+       
+    }
+    #section4 .container .cards {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #section4 .end .row2{
+      
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+      
+        padding-top: 370px;
+    }
+   
+  
+
+
+    #section5{
+
+        height: 160vh;
+    }
+    #section5 .container .cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #section5 .container .cards .card-content {
+        width: calc(90% /1);
+        text-align: center;
+    }
+    #section6{
+        height: 190vh;
+    }
+    #section6 .cards {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+/* 
+    #section6 .cards .card{
+
+
+        /* width: calc(100% / 4);
+        text-align: center;
+    }  */
+     
+    #section6 .container .row{
+        height: 700px;
+    }
+    #section7 .container .row{
+        height: 500px;
+    }
+    #section7 .container .row .cont2{
+        width: 750px;
+    }
+    #section8 .container .imgs .img-2 img{
+        width: 330px;
+        height: 350px;
+    }
+    #section8 .container .imgs{
+        width: 100%;
+        margin: auto;
+       
+    }
+    #section8 .container .img-3 img{
+        width: 290px;
+        height: 330px;
+        
+    }
+    #section8 .container .img-1 img{
+        width: 290px;
+        height: 350px;
+        
+    }
+    #section9 .container .cont2{
+        width: 400px;
+     
+    }
+    #section9 .container .cont1{
+        width: 300px;
+    }
+    
+    #section10 .container .cards .card-content .card-img img{
+        width: 220px;
+        height: 220px;
+        margin: auto;
+        
+       
+        
+    }
+    #section10 .container{
+        width: 100%;
+        margin: auto;
+        display: flex;
+     
+       
+    }
+
+    #section10 .container .cards{
+        width: 100%;
+        margin: auto;
+    
+      
+    }
+    #section10 .container .cards .card-content{
+        margin: auto;
+        width: 100%;
+   
+
+    
+        
+    }
+    footer {
+        height: 60vh;
+    }
+
+       /*-------------------------------- مكان المشكلة ---------------------------*/
+
+    }
+
+
+    @media (max-width: 900px){
+        #section8{
+     
+            height: 180vh;
+        }
+        #section8 .container .imgs{
+   
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            width: calc(100% / 2);
+        }
+        #section5 {
+            height: 200vh;
+        }
+        #section5 .container .cards .card-content{
+            width: calc(100% / 1);
+        }
+        #section6{
+            height: 300vh;
+        }
+        #section6 .container .row{
+            height: 160vh;
+           
+         
+            display: flex;
+            flex-wrap: wrap;
+            margin: auto;
+        }
+       
+        #section7 {
+            background-color: rgb(185, 184, 203);
+        }
+        #section7 .container .row{
+            height: 130vh;
+            width: 80%;
+            display: flex;
+            flex-wrap: wrap;
+            margin: auto;
+        }
+        #section7 .container h3{
+            text-align: center;
+        }
+        #section9 {
+            height: 160vh;
+        }
+        #section9 .container{
+            height: 1000px;
+           margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            
+        }
+
+        #section10{
+            height: 180vh;
+        }
+        
+        #section10 .container{
+           
+            height: 700px;
+        }
+        #section10 .container .cards {
+
+         
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        #section10 .container .cards .card-content{
+            background-color:rgb(247, 249, 254);
+        }
+        footer{
+            height: 70vh;
+         }
+      }
+         @media (max-width: 840px){
+            #section6{
+                height: 330vh;
+            }
+            #section6 .cards .card{
+                width: calc(100% / 1);
+              
+                
+                
+            }
+            footer{
+                height: 100vh;
+                font-size: 15px;
+             
+            }
+            footer .container{
+                width: 100%;
+            }
+            footer .container .row{
+               
+
+                height: 70vh;
+                width: calc(100% / 1);
+                display: flex;
+                flex-wrap: wrap;
+            }
+            footer .container .end{
+                width: 90%;
+                margin: auto;
+            }
+            #section5 .container .text p{
+                width: 90%;
+                margin: auto;
+            }
+             #section4 .container .cards .card-content .card-text p{
+                margin: auto;
+                padding-right: 30px;
+             }
+
+            
+       }
+
+       @media (max-width: 750px){
+        #section4{
+            height: 190vh;
+        }
+        #section4 .container .row .cards .card-content{
+         
+            height: 280px;
+        }
+        #section6 .container .row {
+            width: 100%;
+        }
+        #section6 .container .row .cont-imge img{
+            width: 320px;
+            height: 500px;
+        }
+        #section7 .container .row .cont2{
+            height: 500px;
+            
+        }
+        #section8 .container .text{
+            width: 90%;
+            margin: auto;
+          
+
+        }
+        h2{
+            font-size: 20px;
+            
+        }
+        #section2 .container .card2-text h2{
+           
+            font-size: 20px;
+        }
+        #section2 .container .card2-text h3 {
+            font-size: 15px;
+
+        }
+        h3{
+            font-size: 15px;
+        }
+        #section7 .container .row  .cont1 h2{
+          
+            font-size: 20px;
+        }
+       
+      
+      
+        
+       }
+
+
+       @media (max-width: 680px){
+        #section6 .container .row .cont-imge img{
+            width: 250px;
+            height: 350px;
+        }
+        #section8 .container .imgs .img-2 img{
+            width: 250px;
+            height: 350px;
+        }
+       
+        #section1 .container .main-img img{
+            width: 350px;
+            height: 300px;
+        }
+        #section2{
+            height: 130vh;
+        }
+        #section2 .container .card2-img .card-content .card-text{
+          
+            width: 300px;
+        }
+
+       
+
+    }
+}
